@@ -11,9 +11,11 @@ selenium (pip)
 #### Dicas:
 
 Para logar va na linha 68 e bote seu usuario e senha do instagram:
+
 luanBot = InstagramBot('USUARIO','SENHA')
 
 Para mudar a hashtag desejada bastar editar a linha 27 'coding' para o que desejar : 
+
 self.comentario_hashtag('coding') 
 
 
