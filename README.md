@@ -1,23 +1,22 @@
-# Bot_automatico_instagram
+# Instagram Bot
+Esse é um projeto de um bot para o Instagram que usa a biblioteca Selenium para realizar tarefas automatizadas na plataforma.
 
- Bot automatico para comentar e dar like no instagram!
+## Funcionalidades
+. Realiza o login no Instagram com o usuário e senha especificados.
 
-#### Requisitos :
-geckodriver (https://github.com/mozilla/geckodriver/releases)
+. Procura por posts com uma determinada hashtag.
 
-selenium (pip)
+. Percorre a lista de posts e adiciona um comentário aleatório pré-definido.
 
+## Configuração
+Antes de rodar o bot, é preciso baixar e configurar o Geckodriver para usar com o Firefox. O caminho para o executável do Geckodriver deve ser informado na inicialização do webdriver.
 
-#### Dicas:
+Além disso, o usuário e a senha devem ser informados no momento da criação do objeto "InstagramBot".
 
-Para logar va na linha 68 e bote seu usuario e senha do instagram:
+## Como rodar o bot
+Basta executar o arquivo Python com o seguinte comando:
 
-luanBot = InstagramBot('USUARIO','SENHA')
+python instabot.py
 
-Para mudar a hashtag desejada bastar editar a linha 27 'coding' para o que desejar : 
-
-self.comentario_hashtag('coding') 
-
-
-#### Observaçao :
-Projeto para estudo ,ultima vez rodado foi em 7/21
+## Atenção
+Use esse bot com cuidado, pois a automatização excessiva de ações no Instagram pode resultar em banimento da conta. Além disso, é importante sempre seguir as regras da plataforma e evitar comportamentos que violem a política de uso do Instagram.
